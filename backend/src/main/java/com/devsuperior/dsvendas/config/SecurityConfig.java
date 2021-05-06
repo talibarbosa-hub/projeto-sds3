@@ -16,7 +16,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 @Configuration
 @EnableWebSecurity
-public class SecurityConfig extends WebSecurityConfigurerAdapter {	//Por padrão navegadores não podem acessar app que esta em outro host então precisamos liberar CORS 
+public class SecurityConfig extends WebSecurityConfigurerAdapter {	//Por padrão navegadores não podem acessar app que esta em outro host então precisamos liberar CORS devido ao deploy  em nuvem
 
 	@Autowired
 	private Environment env;
