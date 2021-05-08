@@ -1,6 +1,5 @@
 // comunicação entre paginação e tabela
 
-import { type } from "node:os";
 import { SalePage } from "types/sale";
 
 type Props = {
